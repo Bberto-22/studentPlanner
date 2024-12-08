@@ -1,0 +1,20 @@
+# Ignorar archivos generados por TailwindCSS
+/static/css/output.css
+
+# Ignorar node_modules (dependencias de npm)
+/node_modules/
+
+
+# Ignorar archivos de configuración de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de IDEs (como VSCode)
+.vscode/
+
+# Ignorar el archivo .env para variables de entorno
+.env

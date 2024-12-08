@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Tareas</title>
+</head>
+<body>
+    <h1>Lista de Tareas</h1>
+    <ul>
+        {% for task in tasks %}
+            <li>{{ task.title }} - {{ task.due_date }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
